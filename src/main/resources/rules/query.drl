@@ -1,0 +1,12 @@
+package com.example.rules;
+unit MapUnitData;
+import com.example.datamodel.A;
+import com.example.datamodel.B;
+
+import java.util.List;
+
+global String matchingStr;
+
+query "MatchMap"
+  $r : String() from matchingStr
+end

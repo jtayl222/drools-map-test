@@ -1,0 +1,19 @@
+package com.example.rules;
+unit MapUnitData;
+import com.example.datamodel.A;
+import com.example.datamodel.B;
+import java.util.List;
+
+rule "rule a"
+when
+  $a1: /a/a1
+  $strB: /b/strB
+  eval( ((List)($a1.get("a1Key1"))) contains $strB)
+then
+  System.out.println("$a1.get(a1Key1) " + $a1.get("a1Key1"));
+  System.out.println("$strB " + $strB);
+  drools.getKnowledgeRuntime().setGlobal("matchingStr", $strB);
+end
+
+
+

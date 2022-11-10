@@ -1,0 +1,34 @@
+{
+    "a":
+      {
+        "a1": {
+          "a1Key1": [
+            "Value1A",
+            "Value1B"
+          ],
+          "a1Key2": [
+            "Value2A",
+            "Value2B"
+          ],
+          "a1Key3": [
+            "Value3A",
+            "Value3B"
+          ]
+        },
+        "a2": [
+            {
+              "notUsed": 0
+            }
+          ],
+          "a3": [
+            {
+              "notUsed": 0
+            }
+          ]
+      },
+    "b":
+      {
+        "strB": "string"
+      },
+    "matchingStr": "string"
+  }
