@@ -28,7 +28,6 @@
       },
     "b":
       {
-        "strB": "string"
-      },
-    "matchingStr": "string"
+        "strB": "Value1A"
+      }
   }
